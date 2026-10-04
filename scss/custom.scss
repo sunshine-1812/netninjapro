@@ -1,0 +1,207 @@
+//NetNinjaa Pro theme
+
+$primary: #6c63ff;
+$secondary: #00b894;
+@import "../node_modules/bootstrap/scss/bootstrap";
+// NetNinja Pro theme
+
+$primary: #6c63ff;
+$secondary: #00b894;
+
+@import "../node_modules/bootstrap/scss/bootstrap";
+
+// Custom button styling
+.btn-primary {
+  border-radius: 25px;
+  padding: 10px 22px;
+  font-weight: 600;
+}
+
+.btn-secondary {
+  border-radius: 25px;
+  padding: 10px 22px;
+  font-weight: 600;
+}
+// Navbar customization
+.navbar {
+  padding: 15px 0;
+}
+
+.navbar-brand {
+  font-size: 1.2rem;
+}
+
+.navbar-brand i {
+  color: $primary;
+  margin-right: 6px;
+}
+
+.navbar .nav-link {
+  font-weight: 500;
+  margin-left: 15px;
+  transition: 0.3s;
+}
+
+// Navbar customization
+.navbar {
+  padding: 15px 0;
+}
+
+.navbar-brand {
+  font-size: 1.2rem;
+}
+
+.navbar-brand i {
+  color: $primary;
+  margin-right: 6px;
+}
+
+.navbar .nav-link {
+  font-weight: 500;
+  margin-left: 15px;
+  transition: 0.3s;
+}
+
+.navbar .nav-link:hover {
+  color: $primary;
+}
+// Navbar customization
+.navbar {
+  padding: 15px 0;
+}
+
+.navbar-brand {
+  font-size: 1.2rem;
+}
+
+.navbar-brand i {
+  color: $primary;
+  margin-right: 6px;
+}
+
+.navbar .nav-link {
+  font-weight: 500;
+  margin-left: 15px;
+  transition: 0.3s;
+}
+// Navbar customization
+.navbar {
+  padding: 15px 0;
+}
+
+.navbar-braand i {
+  color: $primary;
+  margin-right: 6px;
+}
+
+.navbar .nav-link {
+  font-weight: 500;
+  margin-left: 15px;
+  transition: 0.3s;
+}
+
+.navbar .nav-link:hover {
+  color: $primary;
+}
+
+// Navbar background
+.navbar {
+  background-color: #f8f9fa;
+  border-bottom: 1px solid #e9ecef;
+}
+.navbar-toggler {
+  border-color: $primary;
+}
+
+.navbar-toggler:focus {
+  box-shadow: 0 0 0 0.15rem rgba(108, 99, 255, 0.25);
+}
+// Navbar links
+.navbar .nav-link {
+  position: relative;
+  color: #333;
+  font-weight: 500;
+  margin-left: 15px;
+  padding: 8px 0;
+  transition: color 0.3s ease;
+}
+
+// Hover effect
+.navbar .nav-link:hover {
+  color: $primary;
+}
+
+// Underline effect
+.navbar .nav-link::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 0;
+  height: 2px;
+  background-color: $primary;
+  transition: width 0.3s ease;
+}
+
+// Show underline on hover
+.navbar .nav-link:hover::after {
+  width: 100%;
+}
+
+// Active link
+.navbar .nav-link.active {
+  color: $primary;
+  font-weight: 600;
+}
+
+.navbar .nav-link.active::after {
+  width: 100%;
+}
+// Navbar brand
+.navbar-brand {
+  color: $primary;
+  font-weight: 700;
+  letter-spacing: 0.3px;
+  transition: color 0.3s ease;
+}
+
+.navbar-brand:hover {
+  color: darken($primary, 10%);
+}
+
+.navbar-brand i {
+  font-size: 1.4rem;
+  vertical-align: middle;
+}
+// Navbar brand
+.navbar-brand {
+  color: $primary;
+  font-weight: 700;
+  letter-spacing: 0.3px;
+  transition: color 0.3s ease;
+}
+
+.navbar-brand:hover {
+  color: darken($primary, 10%);
+}
+
+.navbar-brand i {
+  font-size: 1.4rem;
+  vertical-align: middle;
+}
+// Navbar brand
+.navbar-brand {
+  color: $primary;
+  font-weight: 700;
+  letter-spacing: 0.3px;
+  transition: color 0.3s ease;
+}
+
+.navbar-brand:hover {
+  color: darken($primary, 10%);
+}
+
+.navbar-brand i {
+  font-size: 1.4rem;
+  vertical-align: middle;
+}
